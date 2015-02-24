@@ -1,0 +1,24 @@
+- matrices (and arrays)
+- lists
+- Data frames continued (data frame is like both matrix and list)
+    - rows, columns
+    - referring to columns by name
+    - querying columns by type (?)
+    - adding columns to data frame
+    - dim()
+    - attach(), detach()
+    - logical operators & vs. && and | vs. || (also include if control flows, then?)
+- lists
+- t.tests (and transformation...work in qqplot()?)
+    - q-q plot (have to introduce quantiles...)
+- lm: plot regression with line
+- more plotting... bar graphs? (with error bars?) boxplots? jitter? maybe on homework, one more-complicated graph? 
+- How to write results? (report p-value, etc.)
+- power simulations: too theoretical?
+
+chisq.test()
+prop.test()
+t.test()
+lm()
+aov() (with caveats!)
+

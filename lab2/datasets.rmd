@@ -1,0 +1,113 @@
+---
+title: "Datasets"
+output: pdf_document
+---
+
+### Introduction
+
+These datasets and their descriptions are very generously provided by Professor
+[Kathy Cottingham](http://sites.dartmouth.edu/CottinghamLab/) at Dartmouth College.
+
+Formulate a hypothesis you would like to test around one of these datasets, and
+test your hypothesis (or rather, test the null hypothesis that your alternative
+hypothesis is false) using one of the hypothesis tests we covered in lab:
+
+- $\chi^2$ test of independence, homogeneity, or goodness-of-fit
+- t-test: one-sample (one mean), two-sample (two means), or paired
+- linear regression
+- association/correlation test
+- proportion test
+- ANOVA
+
+Each dataset suggests one or maybe two intuitive hypotheses, so not every
+hypothesis test will be equally appropriate for every dataset. Be sure to choose
+the hypothesis test that corresponds to your "pet" hypothesis.
+
+- - -
+
+### `fish_size.csv`
+
+Some organisms, like humans, cease growth once they reach sexual maturity.
+Others, however, continue growing well past sexual maturity; this phenomenon is
+called indeterminate growth. Many fish species display this life history
+pattern, and biologists have noticed that larger females typically produce more
+eggs than smaller females. However, many species experience selective pressures
+which promote reproduction at smaller sizes as part of a bet-hedging mechanism
+(iteroparity).
+
+Can the typical “final” size of a fish species be used to predict the size at
+which that species first begins to reproduce? Such a relationship may be an
+important benchmark against which the effects of fisheries exploitation can be
+compared: many biologists believe that fisheries which selectively target the
+largest individuals may alter life history parameters such as the size at first
+reproduction.
+
+This data is in the dataset `fish_size.csv`. The first column is the asymptotic
+body length, the length in cm to which female fish will eventually grow, and the
+second is the length in cm at which 50% of the females of that species first
+reproduce.
+
+- - -
+
+### blood_lead.csv
+
+Lead poisoning is a common problem for young children who live in older houses
+where lead-based paint was used and is now peeling and flaking from walls and
+ceilings. The paint has a sweet taste, and children consume it both purposefully
+and inadvertently as paint dust on objects they put in their mouth. Lead is not
+excreted by the kidneys and accumulates in the body, where it can cause
+neurological problems including brain damage.  
+
+A study was done to test the effectiveness of a new drug designed to mobilize
+lead in a form that will be excreted, thereby reducing blood lead levels. An
+simple random sample of 120 children less than 6 years old who were being
+treated for lead poisoning was recruited into a clinical trial to compare this
+new drug to existing therapies.  Half of the participants were randomly assigned
+to the traditional therapy; half were randomly assigned to take the new drug for
+28 days. At the beginning of the trial, there was no significant difference
+between groups in blood lead levels.  At the end of the trial, blood lead levels
+were resampled.  The data for this study are in the `blood_lead.csv`. Lead
+concentration is measured in micrograms per deciliter.
+
+- - -
+
+### `ph_after_leaves.csv`
+
+During Fall 2003, Kathy Cottinham conducted an experiment in artificial ponds
+(cattle tanks) together with then-Darmouth-undergraduate Lakshmi Narayan. Our
+goal was to quantify the effects of newly fallen leaves on the physical,
+chemical, and biological aspects of small ponds, as a pilot study to determine
+whether tracking the responses of real lakes and ponds to autumn leaf drop would
+be a worthwhile way to spend time and money.  Our experiment had four leaf
+addition treatments, each replicated six times for 24 total cattle tanks.
+Treatments were randomly assigned to ponds. The treatments were as follows:
+- no leaves (control)
+- “low” leaves (added 150 g of sugar maple *Acer saccharum* leaves)
+- “medium” leaves (added 300 g of sugar maple *Acer saccharum* leaves)
+- “high” leaves (added 600 g of sugar maple *Acer saccharum* leaves)
+
+Many variables changed with leaf addition, but pH showed one of the most
+striking and immediate responses. In particular, we measured the pH in each pond
+(a) one week before the leaves were added (30 September 2003) and (b) ~30 hours
+after leaf addition (8 October 2003).
+
+Prior to leaf addition, there was no difference in pH across treatments, meaning
+that the pH from all 24 tanks can be averaged to estimate the “pre-treatment”
+pH. 
+
+- - -
+### `veggie_diet.csv`
+
+Suppose that in September 2008, a cardiologist and a nutritionist were eating
+lunch together and debating the hypothesis that a vegetarian diet reduces
+cholesterol levels and therefore the risk of cardiovascular disease. The
+conversation grew heated, and they agreed to conduct a small-scale study to see
+if there was any merit to the hypothesis. They recruited 24 colleagues from the
+local medical center to participate in a short-term study: each subject would
+switch from a standard American diet to a completely vegetarian diet for 1
+month. Serum-cholesterol measurements (in mg/dL) were made immediately before
+subjects adopted the diet, and then again after 30 days on the vegetarian diet.
+
+These data are summarized in the dataset `veggie_diet.csv`; columns are
+cholesterol before diet shift (mg/dl), cholesterol after diet shift (mg/dl), and
+the difference between the two (Before - After). 
